@@ -1,12 +1,12 @@
 import React from 'react';
 
-const App = () => { 
+function App () { 
   return (
-    <>
+    <div>
       <h1>
         Rock Paper Scissors Game
       </h1>
-    </>
+      </div>
   );
 }
 export default App;

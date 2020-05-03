@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
-import Weapons from './Weapons'
-
-import React, { Component } from 'react'
-import Weapons from './Weapons'
+//import Weapons from './Weapons'
 
 export class Game extends Component {
   constructor(props) {
@@ -12,5 +9,6 @@ export class Game extends Component {
           buttonText: "Let's play!!",
           title: "Rock Paper Scissors",
           shouldShowButton: 'visible'
-        }   
-  };
+      }
+    }
+        }; 

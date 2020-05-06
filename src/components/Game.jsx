@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 //import Weapons from './Weapons'
 
-class Game extends Component {
+class Game extends Component {}
   
       
      

@@ -1,13 +1,16 @@
 import React from 'react'
-import scissors from '../assets/scissors.png'
+import scissor from '../assets/scissors.png'
 import rock from '../assets/rock.png'
 import paper from '../assets/paper.png'
 
-const Player = (props) => {
+const Player = (weapon) => {
   return (
     <div className="player">
     <img className="player-image"
-    src={rock} alt="rock"
+    src={
+      weapon === "rock" ? rock : weapon === "scissor" ? scissor : paper
+    }
+     alt="rock paper scissor"
     />
     </div>
   )
